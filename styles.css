@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #ffffff; /* White headings */
+    margin-bottom: 20px;
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 15px;
+}
+
+/* Links */
+a {
+    color: #bb86fc; /* Light purple for links */
+}
+a:hover {
+    color: #3700b3; /* Darker purple on hover */
+}
+
+/* Lists */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Code Blocks */
+pre {
+    background-color: #1e1e1e; /* Dark background for code blocks */
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto; /* Allow horizontal scrolling */
+}
+
+/* Inline Code */
+code {
+    background-color: #333333; /* Slightly lighter for inline code */
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+}
+
+/* Light Mode Styles */
+.light-mode {
+    background-color: #ffffff; /* Light background */
+    color: #000000; /* Dark text */
+}
+
+.light-mode h1, .light-mode h2, .light-mode h3 {
+    color: #000000; /* Dark headings */
+}
+
+.light-mode p, .light-mode li {
+    color: #333333; /* Darker text for paragraphs and list items */
+}
+
+.light-mode ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.light-mode pre {
+    background-color: #f0f0f0; /* Light background for code blocks */
+}
+
+.light-mode code {
+    background-color: #e0e0e0; /* Light background for inline code */
+}
+
+/* Light Mode Links */
+.light-mode a {
+    color: #1a0dab; /* Blue for links */
+}
+.light-mode a:hover {
+    color: #0000ee; /* Darker blue on hover */
+}
+
+/* Dark Mode Toggle Button Styles */
+.dark-mode-toggle {
+    position: fixed; /* Fix position to the top right */
+    top: 20px; /* Adjust distance from the top */
+    right: 20px; /* Adjust distance from the right */
+    padding: 10px 15px; /* Padding for the button */
+    background-color: #bb86fc; /* Purple background */
+    color: #ffffff; /* White text */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.dark-mode-toggle:hover {
+    background-color: #3700b3; /* Darker purple on hover */
+}
+
